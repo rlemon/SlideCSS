@@ -1,0 +1,27 @@
+.grid__row {
+	display: flex;
+	flex-direction: column;
+}
+
+.grid__item {
+	flex: 1;
+	padding: $gutter--padding;
+}
+
+@media all and ( min-width: $breakpoint--small ) {
+	.grid__break--sm {
+		flex-direction: row;
+	}
+}
+
+@media all and ( min-width: $breakpoint--medium ) {
+	.grid__break--md {
+		flex-direction: row;
+	}
+}
+
+@media all and ( min-width: $breakpoint--large ) {
+	.grid__break--lg {
+		flex-direction: row;
+	}
+}

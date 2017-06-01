@@ -1,0 +1,77 @@
+////////////////
+// FONTS
+////////////////
+
+$font-family--primary: "Roboto", sans-serif;
+$font-family--secondary: "Roboto", sans-serif;
+
+$font-size--2xsmall: 10px;
+$font-size--xsmall: 12px;
+$font-size--small: 14px;
+
+$font-size--medium: 16px;
+
+$font-size--large: 18px;
+$font-size--2xlarge: 22px;
+$font-size--3xlarge: 28px;
+$font-size--4xlarge: 36px;
+
+$font-size--huge: 42px;
+$font-size--2xhuge: 48px;
+$font-size--3xhuge: 60px;
+
+$line-height--small: 1.1;
+$line-height--medium: 1.4;
+$line-height--large: 1.8;
+
+////////////////
+// COLOURS
+////////////////
+
+// Neutrals
+$color--neutral-2xlight: #efefef;
+$color--neutral-xlight: #d6d6d6;
+$color--neutral-light: #b1b1b1;
+$color--neutral: #707070;
+$color--neutral-dark: #454545;
+$color--neutral-xdark: #262626;
+$color--neutral-2xdark: #141414;
+
+// Theme And Accents
+$color--red: #ff4136;
+$color--orange: #ff8518;
+$color--yellow: #f3c200;
+$color--green: #2ecc40;
+$color--blue: #3f93bf;
+$color--teal: #68CCCC;
+$color--pink: #E289A6;
+$color--purple: #B534C9;
+
+
+$color--theme: #e5b55a;
+
+$color--theme-light: #d4c09c;
+$color--theme-dark: #8c6d37;
+
+$color--theme-accent: #bb85e1;
+$color--theme-accent-dark: #544163;
+
+
+////////////////
+// BREAKPOINTS
+////////////////
+
+$breakpoint--small: 480px;
+$breakpoint--medium: 720px;
+$breakpoint--large: 1020px;
+$breakpoint--xlarge: 1200px;
+
+////////////////
+// GUTTERS
+////////////////
+
+$gutter--padding-small: 4px;
+$gutter--padding: 10px;
+$gutter--padding-large: 24px;
+
+

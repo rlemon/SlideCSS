@@ -1,0 +1,26 @@
+.table {
+	width: 100%; 
+	max-width: 100%;
+	border-collapse: collapse;
+	th,td {
+		padding: $gutter--padding-small;
+		vertical-align: top;
+	}
+	tr {
+		display: table-row;
+	}
+	thead th {
+		vertical-align: bottom;
+		border-bottom: 2px solid $color--neutral-dark;
+	}
+	tbody + tbody {
+		border-top: 2px solid $color--neutral-dark;
+	}
+
+	&.bordered {
+		border: 1px solid $color--neutral-dark;
+		th,td {
+			border-top: 1px solid $color--neutral-dark;
+		}
+	}
+}

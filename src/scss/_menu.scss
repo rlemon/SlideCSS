@@ -1,0 +1,14 @@
+.menu {
+	ul.menu-list {
+		list-style: none;
+		li.menu-item {
+			display: block;
+		}
+	}
+}
+
+.menu-horizontal {
+	ul.menu-list li.menu-item {
+		display: inline-block;
+	}
+}
